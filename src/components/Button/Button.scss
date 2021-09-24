@@ -1,0 +1,16 @@
+@import "../../assets/variables.scss";
+.button {
+  width: 100%;
+  margin-bottom: 10px;
+  border: $primary-color;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(113, 113, 177);
+  background: linear-gradient(
+    45deg,
+    rgba(113, 113, 177, 1) 12%,
+    rgba(101, 101, 232, 1) 33%
+  );
+}

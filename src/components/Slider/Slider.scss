@@ -1,0 +1,45 @@
+@import "../../assets/variables.scss";
+.sliderRange {
+  width: 90%;
+  cursor: pointer;
+  background-color: #0b2abd;
+}
+
+.slideContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.sliderRange {
+  height: 6px;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.sliderRange:hover {
+  background-color: #0b2abd;
+  opacity: 1;
+}
+
+.sliderRange::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 50px;
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+.sliderRange::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border: 50px;
+  color: #d3d3d3;
+  cursor: pointer;
+}

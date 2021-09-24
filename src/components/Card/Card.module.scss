@@ -1,0 +1,28 @@
+@import "../../assets/variables.scss";
+.main {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #1e223f;
+  max-width: 500px;
+  padding: 20px;
+  max-height: 700px;
+  border-radius: 6px;
+  min-width: 450px;
+  @media screen and (max-width: 600px) {
+    min-width: 250px;
+  }
+  @media screen and (max-width: 300px) {
+    min-width: 150px;
+  }
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.text {
+  opacity: 75%;
+  font-size: 12px;
+}
